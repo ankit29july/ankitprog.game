@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: #000;
+		}
+
+		.moon{
+			width: 100px;
+			height: 100px;
+			background-color: white;
+			position: absolute;
+			bottom: 310px;
+			border-radius: 50%;
+			box-shadow: 
+				5px 5px 150px whitesmoke,
+				-5px -5px 150px whitesmoke,
+				10px 5px 150px whitesmoke,
+				-10px -5px 150px whitesmoke;
+			transition: 
+				box-shadow 1.5s 1s ease-in,
+				height 1.5s ease-in,
+				width 1.5s ease-in;
+		}
+
+		.moon:hover{
+			box-shadow: 
+				5px 5px 300px whitesmoke,
+				-5px -5px 300px whitesmoke,
+				10px 5px 300px whitesmoke,
+				-10px -5px 300px whitesmoke;
+			height: 130px;
+			width: 130px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="moon" class="moon">
+		<span class="crater cr1"></span>
+		<span class="crater cr2"></span>
+		<span class="crater cr3"></span>
+	</div>
+</html>
