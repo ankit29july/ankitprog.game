@@ -1,0 +1,142 @@
+/* main page */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+body{
+  background-image: url(image/steve.webp);
+  cursor: url(C:\Users\arbind\Desktop\ankit-folder\website\image\sword.jpg);
+}
+
+nav{
+  height: 200px;
+  max-width: auto;
+  background-image: linear-gradient(green -30%,brown);
+}
+
+.hhh1/*wierd name, huh?*/{
+  text-align: left;
+  margin-top: 0;
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-right: 0;
+  margin-right: 0;
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 40px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+    margin-top: 0;
+}
+
+ul li a:hover{
+  background-color: grey;
+  color: #000;
+}
+ul li a.select{
+  background-color: lightgray;
+  color: #000;
+}
+.h1{
+  text-align: center;
+  margin-top: 400px;
+  color: white;
+}
+
+.btn{
+  margin-left: 800px;
+  margin-top: 20px;
+  width: 300px;
+  height: 100px;
+  border: solid black;
+  border-radius: 100px;
+  border-style: solid;
+  background: transparent;
+  transition: 0.5s background;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.btn:hover{
+  background: white;
+  cursor: pointer;
+}
+
+.headervt{
+  text-align: center;
+}
+
+.body2{
+  background-image: none;
+  background: #fff;
+}
+
+.p2{
+  margin-top: 50px;
+  margin-left: 700px;
+  font-size: 30px;
+}
+
+.body3{
+  background-image: url(image/bac2.jpg);
+  background-size: 1920px 1020px;
+  cursor: url(C:\Users\arbind\Desktop\ankit-folder\website\image\sword.jpg);
+}
+
+.hgu{
+  text-align: center;
+}
+
+.p3{
+  margin-top: 50px;
+  margin-left: 400px;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+}
+
+.trbody{
+  background-image: none;
+  background: #fff;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+.box{
+  height: 250px;
+  width: 250px;
+  text-align: center;
+}
+
+h2{
+  font-size: 40px;
+  font-family: Arial;
+}
+
+.box1,.box2,.box3{
+  float: left;
+}
+
+.box4,.box5,.box6{
+  float: right;
+}
+
+.box3{
+  margin-right: 20px;
+}
